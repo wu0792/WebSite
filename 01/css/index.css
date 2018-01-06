@@ -23,9 +23,7 @@ nav {
 .nav-header .item {
     width: 182px;
     height: 40px;
-    /* background: aquamarine; */
     margin: 0;
-    /* padding: 10px; */
     float: left;
     text-align: center;
     cursor: pointer;
@@ -43,10 +41,8 @@ nav {
 }
 
 .logo-header {
-    /* width: 40px; */
     height: 3px;
     background-color: #c73636;
-    /* float: left; */
     text-align: center;
     line-height: 40px;
     color: white;
@@ -65,7 +61,7 @@ nav {
 
 .banner {
     height: 260px;
-    background: url('../image/banner.png');
+    background: url('../images/banner.png');
 }
 
 .nav-middle {
@@ -105,19 +101,19 @@ nav {
 }
 
 .nav-icon .icon1 {
-    background-image: url(../image/icon01.png);
+    background-image: url(../images/icon01.png);
 }
 
 .nav-icon .icon2 {
-    background-image: url(../image/icon02.png);
+    background-image: url(../images/icon02.png);
 }
 
 .nav-icon .icon3 {
-    background-image: url(../image/icon03.png);
+    background-image: url(../images/icon03.png);
 }
 
 .nav-icon .icon4 {
-    background-image: url(../image/icon04.png);
+    background-image: url(../images/icon04.png);
 }
 
 .nav-icon .item {

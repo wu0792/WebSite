@@ -1,0 +1,105 @@
+body {
+    background-color: #010d17;
+}
+
+.root {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.part1,
+.part2,
+.part3 {
+    margin: 0;
+    padding: 10px;
+    position: relative;
+}
+
+.part1 {
+    background-color: #673AB7;
+    color: #faebd7;
+    height: 250px;
+    position: relative;
+    background: url('../images/iron gauze.png');
+}
+
+.part1 .title {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #e2e2e5;
+}
+
+.iphone6 {
+    background: url(../images/iphone6.png) no-repeat;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    width: 400px;
+    height: 900px;
+    background-size: 380px;
+    z-index: 10;
+}
+
+.iphone6 .app {
+    background: url(../images/app1.png) no-repeat;
+    position: absolute;
+    width: 300px;
+    height: 505px;
+    top: 100px;
+    left: 49px;
+    background-size: 280px;
+}
+
+.part2 {
+    color: #f5fcff;
+    height: 300px;
+    background: url(../images/grass.png);
+}
+
+.part2 .title {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #c9cdc0;
+}
+
+.football {
+    background: url(../images/football.png) no-repeat;
+    position: absolute;
+    top: 130px;
+    left: 140px;
+    width: 280px;
+    height: 200px;
+    background-size: 150px;
+}
+
+.part3 {
+    background-color: #00BCD4;
+    color: #f5fcff;
+    height: 300px;
+    background: url(../images/wood.png);
+}
+
+.part3 .title {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #433838;
+}
+
+.coffee {
+    background: url(../images/coffee.png) no-repeat;
+    position: absolute;
+    top: 130px;
+    left: 140px;
+    width: 280px;
+    height: 200px;
+    background-size: 280px;
+}
