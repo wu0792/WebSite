@@ -1,0 +1,107 @@
+html,
+body {
+    height: 100%;
+}
+
+.icon-menu {
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    padding: 7px 0;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    background-color: currentColor;
+    background-clip: content-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.icon-menu:hover {
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    padding: 0 7px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    background-color: currentColor;
+    background-clip: content-box;
+    border-top: none;
+    border-bottom: none;
+}
+
+.root {
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    border-bottom: dashed 1px grey;
+}
+
+.chart {
+    margin: auto;
+    width: 750px;
+    height: 300px;
+    text-align: justify;
+    position: relative;
+    display: inline-block;
+}
+
+.chart::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+}
+
+.chart::after {
+    content: '';
+    display: inline-block;
+    width: 100%
+}
+
+.root::before {
+    content: 'y';
+    height: 100%;
+    display: inline-block;
+    border-left: dashed 1px grey;
+    position: absolute;
+}
+
+.root::after {
+    content: 'x';
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+}
+
+.chart .item {
+    display: inline-block;
+    background: darkcyan;
+    width: 25px;
+}
+
+.chart .item:last-of-type {
+    margin-right: 10px;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid grey;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+}
+
+.arrow-top {
+    width: 0;
+    height: 0;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-bottom: 10px solid grey;
+    position: absolute;
+    top: 0;
+    left: -5px;
+}
