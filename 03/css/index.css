@@ -15,6 +15,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    transition: padding .1s;
 }
 
 .icon-menu:hover {

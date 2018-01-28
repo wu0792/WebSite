@@ -1,0 +1,37 @@
+html,
+body {
+    height: 100%;
+}
+
+.root {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(96, 125, 139, .5);
+    text-align: center;
+}
+
+.root .dialog {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.root:after {
+    height: 100%;
+    content: '';
+    background: wheat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.root .dialog .content {
+    padding: 20px;
+    line-height: 1.2;
+    font-size: 14px;
+    width: 400px;
+    height: 150px;
+    background: white;
+    border-radius: 5px;
+}
